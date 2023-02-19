@@ -1,0 +1,211 @@
+/* Style sheet for home page */
+
+
+h1{
+font-family: "mokoko", serif;
+font-weight: 400;
+font-style: normal;
+color:#FFE6E4;
+text-align:left;
+font-size: 25px;
+}
+/* header */
+.header{
+	overflow: hidden;
+	background-color:#1FB6B2;
+	position: relative;
+}
+.wrap-flex {
+  display: flex;
+  align-items: stretch;
+}
+ 
+.wrap-flex > * {
+  width: 33.3%;
+  padding: 10px; 
+  margin: 0;
+}
+.search{
+	flex-basis: 0;
+}
+.menu{
+	flex-basis: 0;
+}
+nav ul li{
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+	list-style-type: none;
+	text-align: center;
+
+}
+nav ul li a{
+	color:#FFE6E4;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color:#F0B962
+}	
+/* recipe block */
+.salmon{
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+	width: 50%;
+	height:auto;
+	border-radius: 20px;
+}
+
+.box-1{
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 20px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     border: 20px solid #1C888F;
+     background: #1FB6B2;
+     -moz-border-radius: 20px;
+	
+}
+
+
+
+h2{
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 35px;
+	color:#FFE6E4;
+	text-align:center;
+}
+
+.first{ 
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 25px;
+	color:#FFE6E4;
+	text-align:center;
+}
+
+/* Popular Categories */
+h3{
+	font-family: "mokoko", serif;
+font-weight: 400;
+font-style: normal;
+color:#1FB6B2;
+text-align:center;
+font-size: 35px;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 33.3%;
+}
+.affordable{
+	height:100px;
+	width:100px;
+}
+.classics{
+	height:100px;
+	width:100px;
+}
+.sides{
+	height:100px;
+	width:100px;
+}
+.second{
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 25px;
+	color:#1fb6b2;
+	text-align:center;
+}
+
+/* Our Favorites */
+h4{
+	font-family: "mokoko", serif;
+font-weight: 400;
+font-style: normal;
+color:#1FB6B2;
+text-align:center;
+font-size: 35px;
+}
+
+h5{
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 35px;
+	color:#FFE6E4;
+	text-align:center;
+}
+
+.fav-1{
+	display:flex;
+	justify-content:center;
+	background-color:#1fb6b2;
+	border-radius: 20px;
+}	
+	
+.third{
+font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 25px;
+	color:#FFE6E4;
+	text-align:center;
+}
+
+.fish-tacos{
+	height:300px;
+	width:200px;
+	border-radius: 20px;
+	margin: 10px;
+}
+.text-1{
+	background-color: #1C888F;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 5px;
+}
+	
+.fav-2{
+	display:flex;
+	justify-content:center;
+	background-color:#1fb6b2;
+	border-radius:20px;
+}
+
+.stirfry{
+height:300px;
+	width:200px;
+	border-radius: 20px;
+	margin: 10px;
+}
+
+.text-2{
+	background-color: #1C888F;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 5px;
+}
+
+h6{
+	font-family: "mokoko", serif;
+font-weight: 400;
+font-style: normal;
+color:#FFE6E4;
+text-align:left;
+font-size: 25px;
+}
+footer{
+	background-color:#1FB6B2;
+}
