@@ -17,21 +17,11 @@ font-size: 25px;
 }
 .wrap-flex {
   display: flex;
-  align-items: stretch;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
- 
-.wrap-flex > * {
-  width: 33.3%;
-  padding: 10px; 
-  margin: 0;
-}
-.search{
-	flex-basis: 0;
-}
-.menu{
-	flex-basis: 0;
-}
-nav ul li{
+	
+nav ul li {
 	font-family: "mr-eaves-sans", sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -52,7 +42,7 @@ nav ul li a:hover{
 	display: block;
 	margin-left: auto; 
 	margin-right: auto;
-	width: 50%;
+	width: 65%;
 	height:auto;
 	border-radius: 20px;
 }
@@ -105,8 +95,7 @@ font-size: 35px;
 .container{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	width: 33.3%;
+	align-content: center;
 }
 .affordable{
 	height:100px;
@@ -209,3 +198,7 @@ font-size: 25px;
 footer{
 	background-color:#1FB6B2;
 }
+
+	
+
+
