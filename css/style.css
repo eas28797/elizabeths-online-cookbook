@@ -1,13 +1,10 @@
 /* Style sheet for home page */
 
 
-h1{
-font-family: "mokoko", serif;
-font-weight: 400;
-font-style: normal;
-color:#FFE6E4;
-text-align:left;
-font-size: 25px;
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 /* header */
 .header{
@@ -15,10 +12,14 @@ font-size: 25px;
 	background-color:#1FB6B2;
 	position: relative;
 }
-.wrap-flex {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+.logo{
+	font-family: "mokoko", serif;
+	font-weight: 400;
+	font-style: normal;
+	color:#FFE6E4;
+	text-align:left;
+	font-size: 25px;
+	text-decoration: none;
 }
 	
 nav ul li {
@@ -33,10 +34,82 @@ nav ul li {
 nav ul li a{
 	color:#FFE6E4;
 	text-decoration: none;
+	transition: 0.7s ease;
 }
 nav ul li a:hover{
 	color:#F0B962
-}	
+}
+
+.navbar{
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+	background-color:#1FB6B2;
+}
+
+.nav-menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 60px;
+}
+
+.hamburger{
+	display:none;
+	cursor: pointer;
+}
+ 
+.bar{
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: #FFE6E4;
+}
+
+@media(max-width:768px){
+	.hamburger{
+		display: block;
+	}
+	
+	.hamburger.active .bar:nth-child(2){
+		opacity:0;
+	}
+	.hamburger.active .bar:nth-child(1){
+		transform: translateY(8px) rotate(45deg);
+	}
+	.hamburger.active .bar:nth-child(3){
+		transform: translateY(-8px) rotate(-45deg);
+	}
+	
+	
+	.nav-menu{ 
+	position: fixed;
+	left: -100%;
+	top: 70px;
+	gap: 0;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+	transition: 0.3s;
+	}
+	
+	.nav-item{
+		margin: 16px;
+	}
+	
+	.nav-menu.active{
+		left: 0;
+		background-color: #1FB6B2;
+	}
+}
+
+
+ 
 /* recipe block */
 .salmon{
 	display: block;
