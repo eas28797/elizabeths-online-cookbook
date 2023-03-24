@@ -71,6 +71,7 @@ nav ul li a:hover{
 	background-color: #FFE6E4;
 }
 
+/* animation */
 @media(max-width:768px){
 	.hamburger{
 		display: block;
@@ -109,17 +110,16 @@ nav ul li a:hover{
 }
 
 
- 
 /* recipe block */
 .salmon{
 	display: block;
 	margin-left: auto; 
 	margin-right: auto;
-	width: 65%;
-	height:auto;
+	width: 50%;
+	height: 65%;
 	border-radius: 20px;
 }
-
+/* Original box code
 .box-1{
 	display:block;
 	margin-left:auto;
@@ -132,8 +132,31 @@ nav ul li a:hover{
      border: 20px solid #1C888F;
      background: #1FB6B2;
      -moz-border-radius: 20px;
-	
 }
+*/
+ 
+ /*Revision for rounded inner box*/
+ 
+ .box-1{
+	 display:block;
+	 margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	border-radius: 20px;
+	border: solid 15px #1C888F;
+	background-color: #1C888F;
+ }
+
+.inner-box {
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	width: 60%;
+	padding: 15px;
+	border-radius:20px;
+	background-color: #1FB6B2;
+}
+
 
 
 
@@ -215,6 +238,9 @@ h5{
 	justify-content:center;
 	background-color:#1fb6b2;
 	border-radius: 20px;
+	width: 75%;
+	margin-left:auto;
+	margin-right: auto;
 }	
 	
 .third{
@@ -235,8 +261,8 @@ font-family: "mr-eaves-sans", sans-serif;
 .text-1{
 	background-color: #1C888F;
 	border-radius: 20px;
-	margin: 10px;
 	padding: 5px;
+	margin: 10px;
 }
 	
 .fav-2{
@@ -244,6 +270,9 @@ font-family: "mr-eaves-sans", sans-serif;
 	justify-content:center;
 	background-color:#1fb6b2;
 	border-radius:20px;
+	width: 75%;
+	margin-left:auto;
+	margin-right: auto;
 }
 
 .stirfry{
@@ -271,6 +300,10 @@ font-size: 25px;
 footer{
 	background-color:#1FB6B2;
 }
+
+	
+
+
 
 	
 
