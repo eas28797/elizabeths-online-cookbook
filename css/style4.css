@@ -6,7 +6,7 @@
 /* header */
 .header{
 	overflow: hidden;
-	background-color:#1FB6B2;
+	background-color:#1C888F;
 	position: relative;
 }
 .logo{
@@ -43,7 +43,7 @@ nav ul li a:hover{
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 24px;
-	background-color:#1FB6B2;
+	background-color:#1C888F;
 }
 
 .nav-menu{
@@ -101,6 +101,6 @@ nav ul li a:hover{
 	
 	.nav-menu.active{
 		left: 0;
-		background-color: #1FB6B2;
+		background-color: #1C888F;
 	}
 }
