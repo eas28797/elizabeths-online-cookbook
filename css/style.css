@@ -9,7 +9,7 @@
 /* header */
 .header{
 	overflow: hidden;
-	background-color:#1FB6B2;
+	background-color:#1C888F;
 	position: relative;
 }
 .logo{
@@ -46,7 +46,7 @@ nav ul li a:hover{
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 24px;
-	background-color:#1FB6B2;
+	background-color:#1C888F;
 }
 
 .nav-menu{
@@ -115,25 +115,11 @@ nav ul li a:hover{
 	display: block;
 	margin-left: auto; 
 	margin-right: auto;
-	width: 65%;
-	height: 75%;
+	width: 85%;
+	height: 95%;
 	border-radius: 20px;
 }
-/* Original box code
-.box-1{
-	display:block;
-	margin-left:auto;
-	margin-right: auto;
-	width: 50%;
-	border-radius: 20px;
-	box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-     border: 20px solid #1C888F;
-     background: #1FB6B2;
-     -moz-border-radius: 20px;
-}
-*/
+
  
  /*Revision for rounded inner box*/
  
@@ -141,7 +127,7 @@ nav ul li a:hover{
 	 display:block;
 	 margin-left: auto;
 	margin-right: auto;
-	width: 60%;
+	width: 75%;
 	border-radius: 20px;
 	border: solid 15px #1C888F;
 	background-color: #1C888F;
@@ -151,31 +137,43 @@ nav ul li a:hover{
 	display:block;
 	margin-left:auto;
 	margin-right: auto;
-	width: 60%;
+	width: 99%;
 	padding: 15px;
 	border-radius:20px;
-	background-color: #1FB6B2;
+	background-color: #199697;
 }
 
 
 
 
 h2{
-	font-family: "mr-eaves-sans", sans-serif;
+	font-family: "mokoko", serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 35px;
+	font-size: 30px;
 	color:#FFE6E4;
 	text-align:center;
 }
 
 .first{ 
 	font-family: "mr-eaves-sans", sans-serif;
-	font-weight: 300;
+	font-weight: 200;
 	font-style: normal;
 	font-size: 25px;
 	color:#FFE6E4;
 	text-align:center;
+}
+.link{
+	color:#FFE6E4;
+	text-decoration: none;
+	transition: 0.7s ease;
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+}
+.link:hover{
+	color:#F0B962
 }
 
 /* Popular Categories */
@@ -192,6 +190,9 @@ font-size: 35px;
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
+	width: 83%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .affordable{
 	height:100px;
@@ -225,10 +226,10 @@ font-size: 35px;
 }
 
 h5{
-	font-family: "mr-eaves-sans", sans-serif;
-	font-weight: 300;
+	font-family:  "mokoko", serif;
+	font-weight: 200;
 	font-style: normal;
-	font-size: 35px;
+	font-size: 25px;
 	color:#FFE6E4;
 	text-align:center;
 }
@@ -236,9 +237,9 @@ h5{
 .fav-1{
 	display:flex;
 	justify-content:center;
-	background-color:#1fb6b2;
+	background-color:#199697;
 	border-radius: 20px;
-	width: 75%;
+	width: 95%;
 	margin-left:auto;
 	margin-right: auto;
 }	
@@ -268,9 +269,9 @@ font-family: "mr-eaves-sans", sans-serif;
 .fav-2{
 	display:flex;
 	justify-content:center;
-	background-color:#1fb6b2;
+	background-color:#199697;
 	border-radius:20px;
-	width: 75%;
+	width: 95%;
 	margin-left:auto;
 	margin-right: auto;
 }
@@ -298,7 +299,7 @@ text-align:left;
 font-size: 25px;
 }
 footer{
-	background-color:#1FB6B2;
+	background-color:#1C888F;
 }
 
 	
