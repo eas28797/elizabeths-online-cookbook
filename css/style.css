@@ -1,0 +1,434 @@
+/* Style sheet for home page */
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* header */
+.header{
+	overflow: hidden;
+	background-color:#1C888F;
+	position: relative;
+}
+.logo{
+	font-family: "mokoko", serif;
+	font-weight: 400;
+	font-style: normal;
+	color:#FFE6E4;
+	text-align:left;
+	font-size: 25px;
+	text-decoration: none;
+}
+	
+nav ul li {
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+	list-style-type: none;
+	text-align: center;
+
+}
+nav ul li a{
+	color:#FFE6E4;
+	text-decoration: none;
+	transition: 0.7s ease;
+}
+nav ul li a:hover{
+	color:#F0B962
+}
+
+.navbar{
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+	background-color:#1C888F;
+}
+
+.nav-menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 60px;
+}
+
+.hamburger{
+	display:none;
+	cursor: pointer;
+}
+ 
+.bar{
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: #FFE6E4;
+}
+
+@media(max-width:850px){
+	.hamburger{
+		display: block;
+	}
+	
+	.hamburger.active .bar:nth-child(2){
+		opacity:0;
+	}
+	.hamburger.active .bar:nth-child(1){
+		transform: translateY(8px) rotate(45deg);
+	}
+	.hamburger.active .bar:nth-child(3){
+		transform: translateY(-8px) rotate(-45deg);
+	}
+	
+	
+	.nav-menu{ 
+	position: fixed;
+	left: -100%;
+	top: 70px;
+	gap: 0;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+	transition: 0.3s;
+	}
+	
+	.nav-item{
+		margin: 16px;
+	}
+	
+	.nav-menu.active{
+		left: 0;
+		background-color: #1C888F;
+	}
+}
+
+
+/* recipe block */
+.salmon{
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+	width: 85%;
+	height: 95%;
+	border-radius: 20px;
+
+}
+ 
+	  
+ 
+ /*Revision fior rounded inner box*/
+ 
+ .box-1{
+	 display:block;
+	 margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	border-radius: 20px;
+	border: solid 15px #1C888F;
+	background-color: #1C888F;
+	
+	
+ }
+
+.inner-box {
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	width: 99%;
+	padding: 15px;
+	border-radius:20px;
+	background-color: #199697;
+}
+
+@media (min-width: 850px) {
+	.z {
+		display: flex;
+		justify-content: center;
+		margin-left:auto;
+		margin-right:auto;
+		width: 65%;
+		padding: 10px;
+		}
+	.salmon {
+		width:55%;
+	}
+	.box-1 {
+		height:35%;
+		width: 35%;
+		margin-top: 100px;
+	}
+	.inner-box{
+		width:99%;
+	}
+}
+
+h2{
+	font-family: "mokoko", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	color:#FFE6E4;
+	text-align:center;
+}
+
+.first{ 
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 25px;
+	color:#FFE6E4;
+	text-align:center;
+}
+.link{
+	color:#FFE6E4;
+	text-decoration: none;
+	transition: 0.7s ease;
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20px;
+}
+.link:hover{
+	color:#F0B962
+}
+
+/* Popular Categories */
+h3{
+	font-family: "mokoko", serif;
+font-weight: 400;
+font-style: normal;
+color:#1FB6B2;
+text-align:center;
+font-size: 35px;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	width: 83%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.affordable{
+	height:100px;
+	width:100px;
+}
+.classics{
+	height:100px;
+	width:100px;
+}
+.sides{
+	height:100px;
+	width:100px;
+}
+.second{
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 25px;
+	color:#1fb6b2;
+	text-align:center;
+}
+
+@media (min-width:850px){
+	.container{
+		width: 45%;
+	}
+}
+
+
+/* Our Favorites */
+h4{
+	font-family: "mokoko", serif;
+font-weight: 400;
+font-style: normal;
+color:#1FB6B2;
+text-align:center;
+font-size: 35px;
+}
+
+h5{
+	font-family: "mokoko", serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 25px;
+	color:#FFE6E4;
+	text-align:center;
+}
+
+.fav-1{
+	display:flex;
+	justify-content:center;
+	background-color:#199697;
+	border-radius: 20px;
+	width: 95%;
+	margin-left:auto;
+	margin-right: auto;
+}	
+	
+.third{
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 25px;
+	color:#FFE6E4;
+	text-align:center;
+}
+
+.fish-tacos{
+	height:300px;
+	width:200px;
+	border-radius: 20px;
+	margin: 10px;
+}
+.text-1{
+	background-color: #1C888F;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 10px;
+}
+	
+.fav-2{
+	display:flex;
+	justify-content:center;
+	background-color:#199697;
+	border-radius:20px;
+	width: 95%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.stirfry{
+height:300px;
+	width:200px;
+	border-radius: 20px;
+	margin: 10px;
+}
+
+.text-2{
+	background-color: #1C888F;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 5px;
+
+}
+
+@media (min-width: 850px) {
+	.favorites{
+		display:flex;
+		justify-content: center;
+		padding: 10px;
+	}
+	.fav-1{
+		width:35%;
+	}
+	.fav-2{
+		width:35%;
+	}
+	
+	
+	
+}
+
+
+
+
+
+h6{
+	font-family: "mokoko", serif;
+font-weight: 400;
+font-style: normal;
+color:#FFE6E4;
+text-align:left;
+font-size: 25px;
+}
+footer{
+	padding:15px;
+	background-color:#1C888F;
+}
+
+
+
+
+/* Page 2 Our Story */
+
+.chicken { 
+	border-radius: 20px;
+	height: 45%;
+	width: 35%;
+	border: solid #F0B962 10px;	
+	margin: 20px;
+}
+
+.container2{
+	display: flex;
+	justify-content: center;
+}
+
+@media (min-width:850px) {
+	.container2{
+		width: 55%;
+		margin-left:auto;
+		margin-right: auto;
+	}	
+	
+}
+
+/* Image Collage */
+
+.collage{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px
+	
+}
+
+.column{
+	flex: 25%;
+	max-width:25%;
+	padding: 10px;
+}
+
+.column img{
+	margin-top: 20px;
+	vertical-align: middle;
+	width: 100%;
+	border-radius: 20px;
+	border: solid #F0B962 12px;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+	
+p{ 
+	font-family: "mr-eaves-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 25px;
+	color:#1fb6b2;
+	text-align:left;
+	margin: 20px;
+}
+
+h1{
+	font-family: "mokoko", serif;
+font-weight: 400;
+font-style: normal;
+color:#1FB6B2;
+text-align:center;
+font-size: 35px;
+}
+
+
