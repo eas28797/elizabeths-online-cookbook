@@ -88,7 +88,8 @@ nav ul li a:hover{
 	
 	
 	.nav-menu{ 
-	position: fixed;
+	position: absolute;
+		z-index:1;
 	left: -100%;
 	top: 70px;
 	gap: 0;
@@ -241,6 +242,19 @@ font-size: 35px;
 	.container{
 		width: 45%;
 	}
+	.affordable{
+		height: 150px;
+		width:150px;
+	}
+	.classics{
+		height:150px;
+		width:150px;
+	}
+	.sides{
+		height:150px;
+		width:150px;
+	}
+	
 }
 
 
@@ -714,7 +728,7 @@ font-size: 25px;
       display: flex;
       flex-wrap: nowrap;
       height: auto;
-      width: 55%;
+      width: 85%;
 	  overflow-x: scroll;
 	  margin-left: auto;
 	  margin-right: auto;
