@@ -951,4 +951,9 @@ input[type="submit"]{
 	.img-sec{
 		display:none;
 	}
+	.sticky{
+	position: absolute;
+  bottom: 0;
+  left: 0;
+}
 }
