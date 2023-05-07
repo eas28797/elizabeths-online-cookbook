@@ -947,8 +947,7 @@ input[type="submit"]{
 @media screen and (max-width: 800px){
 	.form { 
 	width:85%;
-		position:absolute;
-		z-index:1;
+		
 	}
 	.img-sec{
 		display:none;
@@ -956,8 +955,6 @@ input[type="submit"]{
 	.sticky{
 	position: absolute;
  	 bottom: 0;
- 	 left: 0;
 	width:100%;
-	z-index:0;
 }
 }
